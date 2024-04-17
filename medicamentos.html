@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feridas e Cuidados</title>
+    <link rel="stylesheet" href="./estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex flex-row p-0 ps-2">
+            <div class="card border-0 d-flex flex-row align-items-center d-lg-none bg-transparent">
+                <a class="navbar-brand m-0" href="/">
+                    <img class="logo" src="./img/teste logo.png" alt="feridas">
+                </a>
+                <h1 id="feridas">FERIDAS</h1>
+            </div>
+            <div class="card border-0 d-flex flex-row align-items-center d-none d-lg-flex bg-transparent">
+                <a class="navbar-brand" href="/">
+                    <img class="logo" src="./img/teste logo.png" alt="feridas">
+                </a>
+                <h1 class="ms-2" id="feridas">FERIDAS</h1>
+            </div>
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                style="border-color: white;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center list-group list-group-flush">
+                    <li class="nav-item">
+                        <a class="ni nav-link" href="./index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ni nav-link" href="./Feridas.html">Feridas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ni nav-link" href="./Classificar.html">Classificação</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body style="background-color: #124c72;">
+
+    <div class="popup-container">
+        <div class="popup-box">
+            <h1></h1>
+            <p></p>
+            <button class="closebtn">OK</button>
+        </div>
+    </div>
+
+    <main>
+        <br>
+        <div class="container">
+            <h1>Na prática da cura de feridas, é adotado três abordagens distintas de cobertura:</h1>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h3>Cobertura Passiva:</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h5 style="color: #124c72;"> Esta cobertura compreende materiais que desempenham um papel
+                                essencialmente protetor,
+                                cobrindo a ferida para evitar a exposição a agentes externos prejudiciais. Um exemplo
+                                clássico é o uso de gaze estéril, que oferece uma barreira física contra
+                                contaminantes.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h3> Cobertura Interativa:</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h5 style="color: #124c72;">Aqui, entram em cena materiais que interagem ativamente com o
+                                ambiente da ferida, criando um microclima úmido que promove a regeneração do tecido
+                                danificado. Um exemplo notável é o hidrogel, que, ao entrar em contato com a ferida,
+                                ajuda a manter a umidade ideal para o processo de cicatrização </h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <h3>Cobertura Bioativa:</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h5 style="color: #124c72;">Esta tipo de cobertura representa uma abordagem mais avançada,
+                                onde os materiais utilizados não apenas protegem e fornecem um ambiente propício à
+                                cicatrização, mas também agem ativamente para estimular ou facilitar certos processos
+                                biológicos durante o processo de cura. Um exemplo é o alginato de fibra, que não só
+                                absorve o exsudato da ferida, mas também pode estimular a liberação de substâncias
+                                bioativas que aceleram a regeneração tecidual.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <div class="container ">
+            <h1>Coberturas</h1>
+        </div>
+        <br><br><br>
+
+
+        <div class="container d-flex justify-content-center reveal">
+            <div class="btna">
+                <!-- Saf-gel: pomada autolítica seletiva -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 text-center " data-title="Saf-gel"
+                    data-content="Esta pomada autolítica seletiva é uma aliada poderosa na jornada de cura de feridas. Com sua capacidade de adaptação a uma variedade de cenários, ela oferece uma abordagem eficaz para a maioria dos tipos de feridas, exceto quando há grande quantidade de exsudato e inflamação. Seu papel é vital na promoção da regeneração tecidual e no alívio do desconforto do paciente.">
+                    <img class="img-fluid digi2" src="./img/insumos/saf-gel.jpeg" alt="">
+                    <h4 class="mt-3">Saf-gel</h4>
+                </button>
+
+                <!-- AGE: Utilizado para hidratação -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="AGE"
+                    data-content="Um aliado confiável para a hidratação e proteção da pele, o AGE (Ácido Graxo Essencial) é uma ferramenta essencial no arsenal de cuidados com feridas. Sua capacidade de evitar a aderência da gaze à pele não apenas facilita o processo de troca de curativos, mas também ajuda a criar um ambiente propício para a cicatrização.">
+                    <img class="img-fluid digi2" src="./img/insumos/AGE.jpeg" alt="">
+                    <h4 class="mt-3">AGE</h4>
+                </button>
+
+                <!-- Rayon: Cobertura que evita aderência -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Rayon"
+                    data-content="Esta cobertura simples, mas eficaz, desempenha um papel crucial na prevenção da aderência em feridas. Sua capacidade de proporcionar uma barreira protetora sem comprometer a respirabilidade é inestimável para garantir o conforto e a eficácia dos curativos.">
+                    <img class="img-fluid digi2" src="./img/insumos/rayon - atadura.jpg" alt="">
+                    <h4 class="mt-3">Rayon</h4>
+                </button>
+
+                <!-- Hidrogel: Estimula a cicatrização -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Hidrogel"
+                    data-content="Conhecido por seu efeito autolítico e sua capacidade de estimular a cicatrização, o hidrogel é um recurso valioso no tratamento de feridas. Sua capacidade de manter um ambiente úmido na ferida é fundamental para promover a regeneração tecidual e acelerar o processo de cicatrização.">
+                    <img class="img-fluid digi2" src="./img/insumos/hidrogel.jpeg" alt="">
+                    <h4 class="mt-3">Hidrogel </h4>
+                </button>
+
+                <!-- Adaptic / Celulite: Malha de rayon lubrificada -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Adaptic / Celulite"
+                    data-content="Esta malha de rayon lubrificada com parafina ou AGE oferece uma solução versátil para promover a oxigenação e evitar a aderência na pele. Sua capacidade de criar um ambiente favorável à cicatrização faz dela uma escolha popular entre os profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/adaptic.jpeg" alt="">
+                    <h4 class="mt-3">Adaptic</h4>
+                </button>
+
+                <!-- Papaína: Promove desbridamento autolítico -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Papaína"
+                    data-content="PReconhecida por seu papel no desbridamento autolítico, a papaína é uma ferramenta valiosa no tratamento de feridas. Sua capacidade de remover tecido necrótico e promover a limpeza da ferida é essencial para estimular o processo de cicatrização.">
+                    <img class="img-fluid digi2" src="./img/insumos/papaína.jpeg" alt="">
+                    <h4 class="mt-3">Papaína</h4>
+                </button>
+
+                <!-- Carvão ativado: Drena secreção e é bactericida -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Carvão Ativado"
+                    data-content="Este recurso multifuncional desempenha um papel fundamental na drenagem de secreções, no controle de odores e na prevenção de infecções. Sua capacidade de oferecer alívio imediato tendo efeito até 7 dias. Promove um ambiente propício à cicatrização o torna uma escolha popular entre os profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/carvão ativado.jpeg" alt="">
+                    <h4 class="mt-3">Carvão Ativado</h4>
+                </button>
+
+                <!-- Hidrofibra: Alta durabilidade e cicatrizante -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Hidrofibra"
+                    data-content="Reconhecida por sua durabilidade e capacidade de promover um ambiente úmido adequado à cicatrização, a hidrofibra é uma escolha popular no tratamento de feridas. Sua capacidade de estimular a cicatrização e promover a homeostase dos pequenos vasos sanguíneos é inestimável para garantir uma recuperação rápida e eficaz.">
+                    <img class="img-fluid digi2" src="./img/insumos/hidrofibra.jpeg" alt="">
+                    <h4 class="mt-3">Hidrofibra</h4>
+                </button>
+
+                <!-- Aquacel: Hidrofibra de alginato de cálcio com prata -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Aquacel"
+                    data-content="Esta hidrofibra de alginato de cálcio com prata oferece o melhor dos dois mundos: promove um ambiente úmido ideal para a cicatrização e possui propriedades antibióticas. Sua capacidade de oferecer proteção contra infecções e acelerar o processo de cicatrização a torna uma escolha popular entre os profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/aquacel.jpeg" alt="">
+                    <h4 class="mt-3">Aquacel</h4>
+                </button>
+
+                <!-- Prontosan: Remove biofilme -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Prontosan"
+                    data-content="Este agente de limpeza especializado é essencial para remover o biofilme e preparar a ferida para cicatrização. Sua capacidade de agir como um detergente eficaz, quando embebido em gaze, faz dele uma ferramenta indispensável no tratamento de feridas.">
+                    <img class="img-fluid digi2" src=".//img/insumos/prontosan.jpeg" alt="">
+                    <h4 class="mt-3">Prontosan</h4>
+                </button>
+
+                <!-- Hidrocolóide: Promove meio úmido e cicatrização -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Hidrocolóide"
+                    data-content="Reconhecido por sua capacidade de formar um gel quando em contato com a ferida, o hidrocolóide é uma escolha popular para prevenção e tratamento de lesões. Sua capacidade de manter um ambiente úmido e promover a cicatrização o torna uma opção valiosa para profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/hidrocoloide.jpeg" alt="">
+                    <h4 class="mt-3">Hidrocolóide</h4>
+                </button>
+
+                <!-- Stomahesive: Protege e trata lesões de periestoma -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Stomahesive"
+                    data-content="Este produto é projetado especificamente para proteger e tratar lesões de periestoma e dermatites. Sua capacidade de formar uma camada protetora e promover a cicatrização é inestimável para garantir o conforto e a recuperação dos pacientes.">
+                    <img class="img-fluid digi2" src="./img/insumos/stomahesive.jpeg" alt="">
+                    <h4 class="mt-3">Stomahesive</h4>
+                </button>
+
+                <!-- Filme de poliuretano: Transparente e hipoalergênico -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Filme de Poliuretano"
+                    data-content="Este filme transparente e hipoalergênico é uma escolha popular para prevenção e cobertura secundária de feridas. Sua capacidade de oferecer uma barreira eficaz contra contaminantes enquanto permite a visualização da ferida o torna uma escolha ideal para profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/filme de poliuretano.jpeg" alt="">
+                    <h4 class="mt-3">Filme de poliuretano</h4>
+                </button>
+
+                <!-- Bota de Unna: Promove compressão em membros inferiores -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Bota de Unna"
+                    data-content="Esta faixa é projetada para promover compressão em membros inferiores e melhorar a circulação sanguínea. Sua capacidade de oferecer suporte e alívio para pacientes com problemas circulatórios é inestimável para garantir uma recuperação rápida e eficaz.">
+                    <img class="img-fluid digi2" src=".//img/insumos/bota de unna.jpeg" alt="">
+                    <h4 class="mt-3">Bota de Unna</h4>
+                </button>
+
+                <!-- Sulfatiazina de Prata: Efeito bactericida -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Sulfatiazina de Prata"
+                    data-content="Reconhecida por sua eficácia bactericida, a sulfatiazina de prata é uma escolha popular no tratamento de feridas. Sua capacidade de promover um ambiente úmido e prevenir infecções a torna uma escolha valiosa para profissionais de saúde.">
+                    <img class="img-fluid digi2" src="./img/insumos/sulfadiazina de prata.jpeg" alt="">
+                    <h4 class="mt-3">Sulfatiazina de Prata</h4>
+                </button>
+
+                <!-- Terapia por pressão negativa: Curativo à vácuo -->
+                <button class="show-button show-popup col-sm-6 col-xl-3 " data-title="Terapia por Pressão Negativa"
+                    data-content="Este curativo à vácuo é uma ferramenta valiosa no tratamento de feridas complexas. Embora seja altamente eficaz em muitos casos, é importante estar ciente de suas contra-indicações, especialmente em casos de osteomielite e feridas oncológicas.">
+                    <img class="img-fluid digi2" src="./img/insumos/terapia por pressão negativa.jpeg" alt="">
+                    <h4 class="mt-3">Terapia por pressão negativa</h4>
+                </button>
+
+            </div>
+        </div>
+        <br>
+    </main>
+
+    <footer>
+
+        <br>
+        <div class="container-fluid col">
+
+
+            <div class="container-fluid col-md-12">
+                <div>
+                    <p>Criado por Phillip Ito TI AT23 e Milena Ribeiro ENF BT21</p>
+                    <p>Copyright 2024. Todos os direitos reservados.</p>
+                    <p>INFORMAÇÕES SOBRE FERIDAS, <br>AJUDANDO VOCÊ A ENTENDER E CUIDAR MELHOR.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
